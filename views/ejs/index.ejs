@@ -1,0 +1,21 @@
+
+<html>
+    <head>
+            <% include head %>
+        <title>
+            <%- title %> 
+        </title>
+    </head>
+    <header>
+        <h1><%- title %> </h1>
+    </header>
+    <body>
+        <div>
+            <p>This is an express app!</p>
+        </div>
+        <footer>
+                <% include footer %>
+        </footer>
+    </body>
+</html>
+<!-- the "%-" symbol will bind the data "title" property from server side which call this view -->
