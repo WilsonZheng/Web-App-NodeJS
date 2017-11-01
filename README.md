@@ -19,3 +19,7 @@ A website built by NodeJS
 # What's this app?
 
 This app demostrate the difference between view engines (jade,EJS,Vash)
+
+# To start the app
+1. npm install
+2. npm start

@@ -4,6 +4,7 @@ var app = express();
 
 //setup the view engine(Jade)
 app.set("view engine","jade");
+
 app.get("/",function(req,res){
     res.render("jade/index",{title:"Express + Jade"});
 });
