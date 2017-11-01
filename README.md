@@ -1,5 +1,5 @@
 # Web-App-NodeJS
-A website built by NodeJS
+website built by NodeJS: A message board based on sticky notes.
 
 # Framework used:
 1. express
