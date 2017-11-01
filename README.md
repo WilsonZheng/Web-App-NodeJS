@@ -18,4 +18,4 @@ A website built by NodeJS
 
 # What's this app?
 
-This app demostrate the difference between different view engines
+This app demostrate the difference between view engines (jade,EJS,Vash)

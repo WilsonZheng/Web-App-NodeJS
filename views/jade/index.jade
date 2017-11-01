@@ -1,0 +1,18 @@
+
+//- The following block of code is display without layout:
+//------------------------------------------------------------
+//- html
+//-     head
+//-         title= title
+//-     body
+//-         h1= title
+//-         p This is an express app!
+
+//------------------------------------------------------------
+
+//- The following block of code is display with layout:
+//------------------------------------------------------------
+extends layout
+block content
+    h1= title
+    p This is an express app!
