@@ -1,0 +1,16 @@
+{
+    "name":"TheBoardWebApp",
+    "version":"0.1.0",
+    "description":"A message board based on sticky notes.",
+    "main":"server.js",
+    "author": {
+        "name": "Wilson Zheng"
+    },
+    "dependencies":{
+        "express":"4.16.2",
+        "underscore":"1.8.3",
+        "jade":"1.11.0",
+        "ejs":"2.5.7",
+        "vash":"0.12.3" 
+    }
+}
