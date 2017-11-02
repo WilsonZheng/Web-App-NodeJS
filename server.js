@@ -10,12 +10,16 @@ var app = express();
 
 //----------------EJS example----------------------------
 
-app.set("view engine","ejs");//ejs view engine
-app.get("/",function(req,res){
-    res.render("ejs/index",{title:"Express + EJS"});
-});
-//-------------------------------------------------------
+// app.set("view engine","ejs");//ejs view engine
+// app.get("/",function(req,res){
+//     res.render("ejs/index",{title:"Express + EJS"});
+// });
 
+//---------------Vash example----------------------------
+ app.set("view engine","vash");//vash view engine
+ app.get("/",function(req,res){
+         res.render("index",{title:"Express + Vash"});
+     });
 // app.get("/api/users",function(req,res){
 //     res.set("Content-Type","application/json");
 //     res.send({name:"Wilson",isValid:true,group:"Admin"});
