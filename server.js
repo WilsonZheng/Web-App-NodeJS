@@ -16,13 +16,17 @@ var app = express();
 // });
 
 //---------------Vash example----------------------------
- app.set("view engine","vash");//vash view engine
- app.get("/",function(req,res){
-         res.render("index",{title:"Express + Vash"});
-     });
+//  app.set("view engine","vash");//vash view engine
+//  app.get("/",function(req,res){
+//          res.render("index",{title:"Express + Vash"});
+//      });
 // app.get("/api/users",function(req,res){
 //     res.set("Content-Type","application/json");
 //     res.send({name:"Wilson",isValid:true,group:"Admin"});
 // });
+
+
+var controllers = require("./controllers");
+controllers/init(app);//this will call index.js
 var server = http.createServer(app);
 server.listen(3000);

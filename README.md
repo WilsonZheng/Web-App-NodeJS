@@ -1,5 +1,7 @@
 # Web-App-NodeJS
 website built by NodeJS: A message board based on sticky notes.
+It contains the demonstration between view engines (jade,EJS,Vash)
+The website follow the MVC design pattern by using Vash view engine
 
 # Framework used:
 1. express
@@ -15,10 +17,6 @@ website built by NodeJS: A message board based on sticky notes.
 4. Then run "git pull origin master" 
 5. Now the local and remote repositories will be the same
 6. So now to check in the code, first use source control tab to check in to local repository, then in Terminal run "git push origin master" to push it to remote repository.
-
-# What's this app?
-
-This app demostrate the difference between view engines (jade,EJS,Vash)
 
 # To start the app
 1. npm install
