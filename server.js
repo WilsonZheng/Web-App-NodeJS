@@ -16,7 +16,7 @@ var app = express();
 // });
 
 //---------------Vash example----------------------------
-//  app.set("view engine","vash");//vash view engine
+app.set("view engine","vash");//vash view engine
 //  app.get("/",function(req,res){
 //          res.render("index",{title:"Express + Vash"});
 //      });
@@ -25,8 +25,8 @@ var app = express();
 //     res.send({name:"Wilson",isValid:true,group:"Admin"});
 // });
 
-
+app.use(express.static(__dirname+"/public"));//set the public static resource folder
 var controllers = require("./controllers");
-controllers/init(app);//this will call index.js
+controllers.init(app);//this will call index.js
 var server = http.createServer(app);
 server.listen(3000);

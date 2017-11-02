@@ -9,6 +9,7 @@ The website follow the MVC design pattern by using Vash view engine
 3. jade(View engine)
 4. EJS(View engine)
 5. Vash(View engine)
+6. bower
 
 # To set up Git repository and local repository:
 1. Create a new repository in Github(Blank one)
@@ -20,4 +21,5 @@ The website follow the MVC design pattern by using Vash view engine
 
 # To start the app
 1. npm install
-2. npm start
+2. npm install bower -g , bower install underscore
+3. npm start
